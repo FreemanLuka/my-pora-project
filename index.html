@@ -4,15 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freeman's first Page</title>
+    <link rel="stylesheet" href="./index.css">
+     <!-- <style>
+        #about {
+            background-color: pink;
+            color: black;
+        }
+     </style> -->
 </head>
 <body>
-    <h1>Hello globe</h1>
-    <p>This is my first webpage</p>
-    <a href="https://example.com">Visit Example</a>
-    <img src="image.jpg" alt="Sample Imagr">
+    <main>
+        <section id="about">
+            <h1 class="about-header">About Freeman</h1>
+            <p>I am a keen learner of software engineering and I am passionate about fellowship</p>
+            <p class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quaerat voluptate ad perferendis. Exercitationem deleniti itaque illum sequi pariatur commodi iure rerum aut cum, eos modi voluptatem sint. Saepe, pariatur.</p>
+        </section>
+
+        <img src="./public/photo.jpg" alt="Freeman's photo">
+
+        <form id="contact">
+            <legend>Contact Form</legend>
+            <label for="fname">First Name:</label> <br>
+            <input type="text" id="fname" name="fname"> <br>
+            <label for="lname">Last Name:</label> <br>
+            <input type="text" id="lname" name="lname"> <br>
+            <label for="comment">Comment:</label> <br>
+            <textarea name="comment" id="comment" cols="30" rows="5"></textarea> <br>
+            <input type="button" value="submit">
+        </form>
+
+        <section class="flex">
+            <h1>Flex box example</h1>
+            <p>Below is an example of a flex box container</p>
+            <ul class="container">
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+            </ul>
+        </section>
+
+        <section class="grid">
+            <h1>Grid Container Example</h1>
+            <p>Below is an example of a grid container</p>
+            <div class="grid-container">
+                <div>Item1</div>
+                <div>Item2</div>
+                <div>Item3</div>
+                <div>Item4</div>
+                <div>Item5</div>
+                <div>Item6</div>
+                <div>Item7</div>
+                <div>Item8</div>
+                <div>Item9</div>
+                <div>Item9</div>
+                <div>Item9</div>
+                <div>Item9</div>
+                <div>Item9</div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
-
-<!-- Exercise:
-- Modify the page with your own content -->
 
